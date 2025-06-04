@@ -1,0 +1,37 @@
+{
+  "name": "qoenut/mmr-json-package",
+  "description": "Laravel command to generate models and migrations from JSON",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Qoenut\\GenerateFromJson\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0|^10.0",
+    "illuminate/console": "^9.0|^10.0",
+    "illuminate/filesystem": "^9.0|^10.0",
+    "illuminate/database": "^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qoenut\\GenerateFromJson\\GenerateFromJsonServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mkurniarmadhan",
+      "email": "mkurniarmadhan@gmail.com"
+    }
+  ],
+  "repositories": {
+    "generate-from-json": {
+      "type": "path",
+      "url": "."
+    }
+  }
+}
