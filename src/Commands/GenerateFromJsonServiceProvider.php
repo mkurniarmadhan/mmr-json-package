@@ -1,6 +1,6 @@
 <?php
 
-namespace Qoenut\GenerateFromJson;
+namespace Mkurniarmadhan\MmrJsonPackage;
 
 use Illuminate\Support\ServiceProvider;
 

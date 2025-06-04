@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Qoenut\GenerateFromJson\Commands;
+namespace Mkurniarmadhan\MmrJsonPackage\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

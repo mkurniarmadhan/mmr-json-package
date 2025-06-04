@@ -1,10 +1,17 @@
 {
-  "name": "qoenut/mmr-json-package",
+  "name": "mkurniarmadhan/mmr-json-package",
   "description": "Laravel command to generate models and migrations from JSON",
   "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "M Kurnia Ramadhan",
+      "email": "email@example.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
-      "Qoenut\\GenerateFromJson\\": "src/"
+      "Mkurniarmadhan\\MmrJsonPackage\\": "src/"
     }
   },
   "require": {
@@ -17,21 +24,8 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Qoenut\\GenerateFromJson\\GenerateFromJsonServiceProvider"
+        "Mkurniarmadhan\\MmrJsonPackage\\MmrJsonPackageServiceProvider"
       ]
-    }
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "mkurniarmadhan",
-      "email": "mkurniarmadhan@gmail.com"
-    }
-  ],
-  "repositories": {
-    "generate-from-json": {
-      "type": "path",
-      "url": "."
     }
   }
 }
